@@ -8,7 +8,7 @@ connect(
   , connect.bodyParser()
   , handler
   , connect.errorHandler({ showStack: true })
-).listen(8900);
+).listen(process.env.PORT || 8900);
 console.error('listening on http://localhost:8900');
 
 var ops = require('./ops');
