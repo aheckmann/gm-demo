@@ -116,6 +116,7 @@ exports['sepia']= function (req, res, next) {
 function write (base, res, next) {
   base.stream('png', function (err, stdout, stderr) {
     if (err) return next(err);
+    res.setHeader('Expires', new Date(Date.now() + 604800000));
     stdout.pipe(res);
   });
 }
