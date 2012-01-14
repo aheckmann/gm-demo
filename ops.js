@@ -3,7 +3,7 @@ var img = __dirname + '/nodejs.png';
 var resizeX = 343
   , resizeY = 257
 
-var gm = require('gm')
+var gm = require('gm').subclas({ imageMagick: true });
 
 
 exports['resize'] = function (req, res, next) {
