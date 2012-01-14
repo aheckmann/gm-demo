@@ -1,0 +1,20 @@
+{
+  "author": "Aaron Heckmann <aaronheckmann+github@gmail.com>",
+  "name": "tryit",
+  "description": "gm resizer test spin",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "http://aheckmann.github.com/gm/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/aheckmann/gm.git"
+  },
+  "engines": {
+    "node": "~0.4.7"
+  },
+  "dependencies": {
+      "gm": "1.0.1"
+    , "connect": "1.8.4"
+  },
+  "devDependencies": {}
+}
