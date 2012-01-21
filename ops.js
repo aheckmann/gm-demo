@@ -1,3 +1,7 @@
+
+// handle someone submitting ?op=hasOwnProperty etc
+module.exports = exports = Object.create(null);
+
 var img = __dirname + '/nodejs.png';
 
 var resizeX = 343
