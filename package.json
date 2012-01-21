@@ -1,13 +1,13 @@
 {
   "author": "Aaron Heckmann <aaronheckmann+github@gmail.com>",
   "name": "tryit",
-  "description": "gm resizer test spin",
-  "version": "0.0.0",
+  "description": "gm resizer on heroku test spin",
+  "version": "0.0.1",
   "private": true,
   "homepage": "http://aheckmann.github.com/gm/",
   "repository": {
     "type": "git",
-    "url": "git://github.com/aheckmann/gm.git"
+    "url": "git@github.com:aheckmann/gm-demo.git"
   },
   "engines": {
     "node": "~0.4.7"
