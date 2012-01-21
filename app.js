@@ -6,9 +6,8 @@ var gm = require('gm')
 connect(
     connect.logger()
   , connect.query()
-  , connect.bodyParser()
   , handler
-  , connect.errorHandler({ showStack: true })
+  , connect.errorHandler()
 ).listen(port);
 console.error('listening on http://localhost:' + port);
 
