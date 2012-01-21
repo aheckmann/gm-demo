@@ -1,6 +1,7 @@
 
 var gm = require('gm')
   , connect = require('connect')
+  , port = process.env.PORT || 8900
 
 connect(
     connect.logger()
@@ -8,8 +9,8 @@ connect(
   , connect.bodyParser()
   , handler
   , connect.errorHandler({ showStack: true })
-).listen(process.env.PORT || 8900);
-console.error('listening on http://localhost:8900');
+).listen(port);
+console.error('listening on http://localhost:' + port);
 
 var ops = require('./ops');
 
