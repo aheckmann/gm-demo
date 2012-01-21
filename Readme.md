@@ -1,0 +1,2 @@
+
+This is the resizer for the [gm homepage](http://aheckmann.github.com/gm/).
