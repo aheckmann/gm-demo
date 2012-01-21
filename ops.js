@@ -121,6 +121,7 @@ function write (base, res, next) {
   base.stream('png', function (err, stdout, stderr) {
     if (err) return next(err);
     res.setHeader('Expires', new Date(Date.now() + 604800000));
+    res.setHeader('Content-Type', 'image/png');
     stdout.pipe(res);
   });
 }
