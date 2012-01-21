@@ -18,10 +18,10 @@ function handler (req, res, next) {
   var op = req.query.op;
   if ('string' !== typeof op) op = '';
   op = op.trim();
-  console.error('trying method %s', op);
+  console.log('trying method %s', op);
 
   var fn = ops[op];
-  console.error('fn?', !!fn);
+  console.log('fn?', !!fn);
 
   if (!fn) return next();
 
