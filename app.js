@@ -1,6 +1,4 @@
-
-var gm = require('gm')
-  , connect = require('connect')
+var connect = require('connect')
   , port = process.env.PORT || 8900
 
 connect(
