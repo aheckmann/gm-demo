@@ -10,10 +10,10 @@
     "url": "git@github.com:aheckmann/gm-demo.git"
   },
   "engines": {
-    "node": "~0.4.7"
+    "node": "~0.12.6"
   },
   "dependencies": {
-      "gm": "1.0.1"
+      "gm": "1.9.0"
     , "connect": "1.8.4"
   },
   "devDependencies": {}
